@@ -27,8 +27,8 @@
       }"
       :phone="{
         title: 'Phone',
-        text: '(11) 5555-3662',
-        url: 'tel:+551155553662'
+        text: '+55 (11) 4673-3468',
+        url: 'tel:+551146733468'
       }"
       :address="{
         title: 'Book a visit',

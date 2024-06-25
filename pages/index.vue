@@ -222,6 +222,22 @@ useHead({
       {
         src: '/img/lyx.png',
         name: 'Lyx'
+      },
+      {
+        src: '/img/dasa.png',
+        name: 'Dasa'
+      },
+      {
+        src: '/img/vialaser.png',
+        name: 'Vialaser'
+      },
+      {
+        src: '/img/exmed.png',
+        name: 'Exmed'
+      },
+      {
+        src: '/img/nortis.png',
+        name: 'Nortis'
       }
     ]"
     button="See more"
