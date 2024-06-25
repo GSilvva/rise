@@ -14,22 +14,34 @@ useHead({
     title="Our Cases"
     :cases="[
       {
-        image: '/img/case1.jpg',
-        url: 'https://www.youtube.com/watch?v=y_r5kkkp4RY&t=1s&ab_channel=RISE',
-        subtitle: 'Melnick',
-        title: 'Melnick Day'
-      },
-      {
         image: '/img/case2.jpg',
         url: 'https://www.youtube.com/watch?v=pTK60bvXPsM',
         subtitle: 'Zapsign',
         title: 'Facilita aí!'
       },
       {
-        image: '/img/case3.jpg',
-        url: 'https://www.youtube.com/watch?v=Xs5kOhPCoUw',
-        subtitle: 'Americas',
-        title: 'Medicina Esportiva Samaritano'
+        image: '/img/case1.jpg',
+        url: 'https://www.youtube.com/watch?v=y_r5kkkp4RY&t=1s&ab_channel=RISE',
+        subtitle: 'Melnick',
+        title: 'Melnick Day'
+      },
+      {
+        image: '/img/case9.jpg',
+        url: 'https://www.youtube.com/watch?v=KvR4nRNBqsA',
+        subtitle: '',
+        title: 'Iorane'
+      },
+      {
+        image: '/img/calcada.jpg',
+        url: 'https://www.youtube.com/watch?v=ckNvDd5IZnw',
+        subtitle: 'Midea',
+        title: 'Calçada da Fiel'
+      },
+      {
+        image: '/img/americas.jpg',
+        url: 'https://www.youtube.com/watch?v=dn3Ab61jAL4',
+        subtitle: 'Américas',
+        title: 'Plataforma de atendimento'
       },
       {
         image: '/img/case4.jpg',
@@ -38,34 +50,76 @@ useHead({
         title: 'Uma Fusão Inteligente'
       },
       {
-        image: '/img/case5.jpg',
-        url: 'https://www.youtube.com/watch?v=AsAr9lvaYSA',
-        subtitle: 'Colégio Sapiens',
-        title: 'Autoatendimento por Chatbot'
-      },
-      {
-        image: '/img/case6.jpg',
-        url: 'https://www.youtube.com/watch?v=dn3Ab61jAL4',
-        subtitle: 'Americas',
-        title: 'Saúde e Performance'
-      },
-      {
         image: '/img/case7.jpg',
         url: 'https://www.youtube.com/watch?v=ywIpYokdBVg',
         subtitle: 'Midea',
         title: 'Casa Surpreendente - 2ª Temporada'
       },
       {
+        image: '/img/aliexpress.jpg',
+        url: 'https://www.youtube.com/watch?v=KmQHGlS9UqM',
+        subtitle: 'AliExpress',
+        title: 'Dynamic Digital Billboard'
+      },
+      {
+        image: '/img/dasa.jpg',
+        url: 'https://www.youtube.com/watch?v=E02YwrpXJSk',
+        subtitle: 'Dasa',
+        title: 'Previsão: Vacinas'
+      },
+      {
+        image: '/img/genera.jpg',
+        url: 'https://www.youtube.com/watch?v=ZVVoGfe_uM4',
+        subtitle: 'Genera',
+        title: 'A resposta está em você'
+      },
+      {
+        image: '/img/totalpass.jpg',
+        url: 'https://www.youtube.com/watch?v=ykbijJNsxDE',
+        subtitle: 'TotalPass',
+        title: 'Crescendo com força no mercado de wellness b2b'
+      },
+      {
+        image: '/img/warner-case.jpg',
+        url: 'https://www.youtube.com/watch?v=YgzNSMQMABA',
+        subtitle: 'Warner',
+        title: 'Transformando fãs em ativos'
+      },
+      {
+        image: '/img/gamaro.jpg',
+        url: 'https://www.youtube.com/watch?v=QH_SwseVA58',
+        subtitle: 'Gamaro',
+        title: 'Um case imobiliário incomparável'
+      },
+      {
+        image: '/img/case3.jpg',
+        url: 'https://www.youtube.com/watch?v=Xs5kOhPCoUw',
+        subtitle: 'Americas',
+        title: 'Medicina Esportiva Samaritano'
+      },
+      {
+        image: '/img/case5.jpg',
+        url: 'https://www.youtube.com/watch?v=AsAr9lvaYSA',
+        subtitle: 'Colégio Sapiens',
+        title: 'Autoatendimento por Chatbot'
+      },
+      {
+        image: '/img/case10.jpg',
+        url: 'https://www.youtube.com/watch?v=MC37ak9nekk',
+        subtitle: 'Vialaser',
+        title: 'Holiday Games'
+      },
+      {
+        image: '/img/midea1.jpg',
+        url: 'https://www.youtube.com/watch?v=EeM9_-fxRUA',
+        subtitle: 'Midea',
+        title: 'Casa Surpreendente'
+      },
+      {
         image: '/img/case8.jpg',
         url: 'https://www.youtube.com/watch?v=RSIucHfQReU',
         subtitle: 'Midea',
         title: 'Simulador de Cozinha'
-      },
-      {
-        image: '/img/case9.jpg',
-        url: 'https://www.youtube.com/watch?v=KvR4nRNBqsA',
-        subtitle: '',
-        title: 'Iorane'
       }
     ]"
     button="See more"

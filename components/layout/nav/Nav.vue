@@ -37,7 +37,7 @@ defineProps({
             :key="index"
           >
             <a
-              class="relative font-normal hover:font-semibold text-base md:font-semibold md:text-[32px] text-[rgba(255,255,255,.5)] hover:text-white md:opacity-100 before:absolute before:left-0 before:bottom-[-32px] before:w-full before:h-0.5 before:duration-default before:bg-gradient-to-r before:from-light-blue before:to-pink before:opacity-0 before:invisible md:before:hidden hover:before:opacity-100 hover:before:visible"
+              class="relative font-normal hover:font-semibold text-base md:font-semibold md:text-[32px] text-[rgba(255,255,255,.5)] hover:text-white md:opacity-100 before:absolute before:left-0 before:bottom-[-32px] before:w-full before:h-0.5 before:duration-default before:bg-gradient-to-r before:from-light-blue before:to-pink before:opacity-0 before:invisible md:before:hidden hover:before:opacity-100 hover:before:visible md:leading-[120%] md:w-full md:text-center block"
               :href="i.url"
               @click="open = false"
             >
@@ -48,15 +48,7 @@ defineProps({
 
         <div class="flex items-center gap-12 md:flex-col md:gap-16 md:pb-16">
           <LayoutNavButton @click="open = false" :text="button"></LayoutNavButton>
-          <NuxtLink
-            :to="route.name === 'br' ? '/' : '/br'"
-            class="flex items-center gap-3"
-            @click="open = false"
-          >
-            <span class="hidden md:block italic uppercase font-mono font-normal text-sm opacity-50">{{ lang }}</span>
-            <NuxtImg v-if="route.name === 'br'" src="/img/en.jpg" />
-            <NuxtImg v-else src="/img/br.jpg" />
-          </NuxtLink>
+          <LayoutNavLanguage :text="lang" />
         </div>
       </div>
     </LayoutContainer>
@@ -72,7 +64,10 @@ defineProps({
           <NuxtImg src="/img/logo-vertical.svg" class="md:hidden" alt="Rise Growth Marketing" />
           <NuxtImg src="/img/logo-horizontal.svg" class="hidden md:block h-8" alt="Rise Growth Marketing" />
         </NuxtLink>
-        <LayoutNavButton @click="open = false" class="absolute top-2/4 translate-y-[-50%] right-0 md:hidden" :text="button"></LayoutNavButton>
+        <div class="absolute top-2/4 translate-y-[-50%] right-0 md:hidden flex items-center gap-12">
+          <LayoutNavButton @click="open = false" :text="button"></LayoutNavButton>
+          <LayoutNavLanguage :text="lang" />
+        </div>
         <button
           @click="open = !open"
           type="button"
